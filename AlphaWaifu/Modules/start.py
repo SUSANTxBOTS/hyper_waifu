@@ -5,7 +5,7 @@ from telegram.ext import CommandHandler, CallbackQueryHandler, ContextTypes, App
 from AlphaWaifu.db import save_user, save_group
 
 # ✅ Apna log channel yaha daalo
-LOG_CHANNEL_ID = -1002623336438   # 👈 isko apne log channel ID se replace karo
+LOG_CHANNEL_ID = -1002850320991  # 👈 isko apne log channel ID se replace karo
 
 
 # ---------------- START HANDLER ---------------- #
@@ -24,18 +24,18 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         buttons = [
             [InlineKeyboardButton("✦ ➕ ΛDD ME ➕ ✦", url=f"https://t.me/{context.bot.username}?startgroup=true")],
             [
-                InlineKeyboardButton("⌬ SᑌPPORƬ ⌬", url="https://t.me/Naruto_X_Waifu"),
-                InlineKeyboardButton("⌬ ᑌPᗪΛTES ⌬", url="https://t.me/NARUTO_X_SUPPORT"),
+                InlineKeyboardButton("⌬ SᑌPPORƬ ⌬", url="https://t.me/+RwXiTpaDdaliN2Jl"),
+                InlineKeyboardButton("⌬ ᑌPᗪΛTES ⌬", url="https://t.me/ThronexCodex"),
             ],
             [
                 InlineKeyboardButton("☯ HΞLᑭ ☯", callback_data="help_menu"),
-                InlineKeyboardButton("♛ ᗪΞᐯΞᒪOᑭΞᖇ ♛", url="https://t.me/Uzumaki_X_Naruto_6"),
+                InlineKeyboardButton("♛ ᗪΞᐯΞᒪOᑭΞᖇ ♛", url="https://t.me/xAkairo"),
             ]
         ]
 
         caption = (
             "┏━━━━━━━━━━━━━━━━━━━━━━━━━⧫\n"
-            "✾ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ✦ 𝗔𝗟𝗣𝗛𝗔 X 𝗪𝗔𝗜𝗙𝗨 ✦ ʙᴏᴛ\n"
+            "✾ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ  ˹ᴡᴀɢᴜʀɪ ꭙ ɢʀᴀʙʙᴇʀ˼ 🫧 ,\n"
             "┗━━━━━━━━━━━━━━━━━━━━━━━━━⧫\n"
             "┏━━━━━━━━━━━━━━━━━━━━━━━━━⧫\n"
             "┣⪼ ✦ I ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ ғɪɴᴅ ʏᴏᴜʀ 𝗪𝗮𝗶ғᴜ ᴏʀ Hᴜsʙᴀɴᴅᴏ\n"
@@ -58,8 +58,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"👤 𝐔ꜱᴇʀ - {user.mention_html()} (`{user.id}`)\n"
             f"📝 𝐔ꜱᴇʀɴᴀᴍᴇ - @{user.username if user.username else 'Nᴏɴᴇ'}\n"
             f"🌸 𝐍ᴀᴍᴇ - {user.full_name}\n\n"
-            "𝐒ᴜᴘᴘᴏʀᴛ - @NARUTO_X_SUPPORT 💫\n"
-            "𝐎ᴡɴᴇʀ - @Uzumaki_X_Naruto_6 ❤️‍🔥"
+            "𝐒ᴜᴘᴘᴏʀᴛ - @OrbinexX_Society 💫\n"
+            "𝐎ᴡɴᴇʀ - @xPrimehyper❤️‍🔥"
         )
         await context.bot.send_message(LOG_CHANNEL_ID, log_text, parse_mode="HTML")
 
@@ -69,13 +69,13 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [InlineKeyboardButton("✦ ➕ ΛDD ME ➕ ✦", url=f"https://t.me/{context.bot.username}?startgroup=true")],
             [
                 InlineKeyboardButton("☯ HΞLᑭ ☯", callback_data="help_menu"),
-                InlineKeyboardButton("⌬ SᑌPPORƬ ⌬", url="https://t.me/Naruto_X_Waifu"),
+                InlineKeyboardButton("⌬ SᑌPPORƬ ⌬", url="https://t.me/+RwXiTpaDdaliN2Jl"),
             ]
         ]
 
         caption = (
             "┏━━━━━━━━━━━━━━━━━━⧫\n"
-            "✾ ✦ 𝗔𝗟𝗣𝗛𝗔 X 𝗪𝗔𝗜𝗙𝗨 ✦ ʙᴏᴛ\n"
+            "✾  ˹ᴡᴀɢᴜʀɪ ꭙ ɢʀᴀʙʙᴇʀ˼ 🫧 \n"
             "┗━━━━━━━━━━━━━━━━━━⧫\n"
             "┣⪼ Hᴇʏ! Tʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ 💫\n"
             "┣⪼ ᴜsᴇ /guess ᴛᴏ sᴛᴀʀᴛ ғᴜɴ 🎴"
