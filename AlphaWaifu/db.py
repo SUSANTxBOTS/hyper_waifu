@@ -5,9 +5,9 @@ import motor.motor_asyncio
 from cachetools import TTLCache
 
 # ---------- DATABASE SETUP ---------- #
-MONGO_URI = "mongodb+srv://xolig17286:xolig17286@cluster0.5cysryr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://Waifu_db_user:3r87a7Wd8mYDcUsy@cluster0.eogfqdu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_URI)
-db = client["AlphaWaifu"]
+db = client["HYPER-WAIFU"]
 
 # ---------- COLLECTIONS ---------- #
 users_collection = db["users"]
