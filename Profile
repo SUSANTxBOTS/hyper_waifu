@@ -1,1 +1,1 @@
-working: python3 -m AlphaWaifu
+web: python3 -m AlphaWaifu
