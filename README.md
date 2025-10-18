@@ -1,1 +1,1 @@
-# hyper_waifu
+# ALPHA-WAIFU-BOT
