@@ -47,7 +47,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
         await update.message.reply_photo(
-            photo="https://files.catbox.moe/fn9yhx.jpg",
+            photo="https://files.catbox.moe/4e4xkm.jpg",
             caption=caption,
             reply_markup=InlineKeyboardMarkup(buttons)
         )
